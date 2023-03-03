@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;   
+    font-family: sans-serif;
+    background-color: #08AEEA;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*PERFIL*/
+
+
+
+.profile h1 {
+    color: white;
+}
+
+.profile span {
+    color: white;
+    letter-spacing: 1px;
+}
+
+#fecha {
+    color: white;
+    padding: 50px 0 5px 0px;
+
+}
+
+
+/*AGREGAR TAREA*/
+
+.addTask{
+    background-color: red;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.addTaskinput {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+
+}
+.addTaskinput::placeholder {
+   font-size: 1.1rem;
+   color: purple;
+}
+
+.addTaski{
+    font-size: 50px;
+    color: purple;
+
+}
+.addTaski:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/*SECCION DE TAREA */
+
+.taskSeccion h3 {
+    color: vwhite;
+    margin-bottom: 20px;
+}
+
+.taskSeccion li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,var(--blue-dark),var(--green));
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    margin: 5px 0;
+
+}
+.taskSeccion i {
+    font-size: 25px;
+}
+
+.taskSeccion > ul p {
+    font-size: 1.2rem;
+
+}
+
+
+.taskSeccion i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color : blue;
+} 

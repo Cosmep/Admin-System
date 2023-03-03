@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO System</title>
+    <link rel="stylesheet" href="../style/materialize.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="checkin-content">
+        <div class="container">
+            <div id="card" class="card-panel">
+                <h3>Registrarse</h3>
+                <form>
+                    <div class="row">
+                        <div class="col s12">
+                            <p>Dark Mode/Modo Oscuro</p>
+                            <div class="switch">
+                                <label>
+                                  Off
+                                  <input type="checkbox" onchange="darkMode()">
+                                  <span class="lever"></span>
+                                  On
+                                </label>
+                              </div>
+                        </div>
+                        
+                        <div class="input-field col s12">                            
+                            <input type="text" class="text" id="nameReg">
+                            <label for="name">Nombres</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input type="text" class="text" id="lastNameReg">
+                            <label for="lastName">Apellidos</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input id="user" type="text" class="validate">
+                            <label for="user">Usuario</labe>
+                        </div>
+                        
+                        <div class="input-field col s12">
+                            <input id="date" type="date" class="validate">
+                            <label for="date">Fecha de Nacimiento</labe>
+                                
+                        </div>                  
+
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Correo Electronico</labe>                         
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input type="color" id="colorUser"  >
+                            <label for="color">Elija su Color Favorito</label>                         
+                        </div>
+
+                        <div class="input-field col s12">                            
+                            <input id="password" type="text" class="validate">
+                            <label for="password">Contraseña</label>
+                        </div>
+
+                        <div class="col s12">
+                            <button type="button" class ="waves-effect waves-light btn blue lighten-2" id="btnS" onclick="saveF()">Enviar</button> 
+
+                        </div>
+ 
+                   
+
+                          <div class="col s12">
+                         
+                          </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

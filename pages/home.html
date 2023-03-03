@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taeras</title>
+    <link rel="stylesheet" href="../style/materialize.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo"></a><img src="../img/logo.png"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Inicio</a></li>
+              <li><a href="badges.html">Cuenta</a></li>
+              <li><a href="../index.html">Cerrar Sesión</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    <div id="container">
+      <div id="cardTask" class="card-panel">
+
+          <div id="profile"> 
+          <div id="fecha"></div>
+            <h3>Lista de Tareas</h3>
+           </div>
+                    <div class="add">
+
+            <form>
+              <input type="text" id="new-task-input" placeholder="Agregar Tareas">
+              <button type="button" onclick="addTask()">Add</button>
+            </form>
+          
+              
+          </div>                            
+          <div id="taskSeccion">
+            <h5>Estas son tus taeras por hacer</h5> 
+            <ul id="task-list"></ul>                   
+
+        </div> 
+          </div> 
+        </div>  
+        
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
